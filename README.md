@@ -10,8 +10,8 @@ Parallel Computing Toolbox
 
 # Workflow 
 
-In Synthetic Data Generation excecute: ellipse_DSF.m
-
+In the Synthetic Data Generation folder excecute: ellipse_DSF.m
+to generate circular dipole spread functions (DSFs). The script simulates DSFs for a specified number of signal and background photons and incorporates Poisson noise to model photon-counting statistics.
 # License
 
 This project is licensed under the BSD 3-Clause "New" or "Revised" License.
