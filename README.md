@@ -8,6 +8,10 @@ Image Processing Toolbox
 
 Parallel Computing Toolbox 
 
+# Workflow 
+
+In Synthetic Data Generation excecute: ellipse_DSF.m
+
 # License
 
 This project is licensed under the BSD 3-Clause "New" or "Revised" License.
