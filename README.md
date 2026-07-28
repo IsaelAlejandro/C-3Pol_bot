@@ -10,8 +10,22 @@ Parallel Computing Toolbox
 
 # Workflow 
 
-In the Synthetic Data Generation folder excecute: ellipse_DSF.m
-to generate circular dipole spread functions (DSFs). The script simulates DSFs for a specified number of signal and background photons and incorporates Poisson noise to model photon-counting statistics.
+## 1. Synthetic Data Generation
+
+### 1.1 Compute the SGM Basis
+
+In the `SGM_bases_computation` folder, execute `SGM_bases_computation.m`. This script generates either a single SGM basis or a set of SGM bases.
+
+The output file `MBasea.mat` is required for the generation of synthetic data.
+
+### 1.2 Generate Circular Dipole Spread Functions (DSFs)
+
+In the `Synthetic Data Generation` folder, execute `ellipse_DSF.m`.
+
+This script generates synthetic circular Dipole Spread Functions (DSFs). It simulates DSFs for a specified number of signal and background photons and incorporates Poisson noise to model photon-counting statistics.
+
+Before running this script, ensure that the file `MBasea.mat` is present in the `Synthetic Data Generation` folder.
+
 # License
 
 This project is licensed under the BSD 3-Clause "New" or "Revised" License.
