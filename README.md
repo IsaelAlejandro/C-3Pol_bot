@@ -1,5 +1,5 @@
 # C-3Pol_bot
-C-3Pol_bot is a MATLAB-based toolkit designed for the generation of synthetic Dipole Spread Function (DSF) data for high-numerical-aperture (high-NA) imaging systems and for the estimation of dipole localization and polarization parameters.
+C-3Pol_bot is a MATLAB-based toolkit designed for the generation of synthetic circular Dipole Spread Function (DSF) data for high-numerical-aperture (high-NA) imaging systems and for the estimation of dipole localization and polarization parameters.
 
 # Requirements
 MATLAB (All codes were tested using MATLAB R2024b)
