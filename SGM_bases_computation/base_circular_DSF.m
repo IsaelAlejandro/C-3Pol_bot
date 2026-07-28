@@ -102,7 +102,6 @@ d=40*factorr; %actual dimension 2*d+1;
 totalN=2*d+1;
 dfocus=df(plane); %dfocus<0, coverslip closer to MO, dfocus>0 coverllip above NFP.
 dx=15*factorr;
-factorr=2;
 dxf=pixel_size/factorr; 
 rx=dxf*rx*factorr;
 ry=-rx;
