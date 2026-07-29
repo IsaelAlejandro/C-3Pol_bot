@@ -75,6 +75,16 @@ clear all; close all; clc; format long g
 % MBase.mat
 %   A 9 × 450 × Total array containing the basis matrices associated
 %   with each basis, excluding the constant background component.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% IMPORTANT %%%%%%%%%%%%%%
+
+% This code can be used to: 
+% 1) Generate a single basis or a library of bases for creating synthetic 
+% data. The information generated for this purpose is stored in the file % 'MBasea.mat'. 
+% 
+% 2) Generate a single basis or a library of bases for data analysis. 
+% The information generated for this purpose is stored in the files :
+% 'I0Lm.mat', 'I0Rm.mat', 'MBaseb.mat', and 'PinvBaseb.mat'.
+
 
 L=2^9;   %Grid length in pixels
 pixel_size=0.0527242; %camera pixel size in microns
